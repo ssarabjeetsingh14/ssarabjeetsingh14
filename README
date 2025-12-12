@@ -1,90 +1,32 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>GitHub README — Profile Section</title>
-  <style>
-    :root{--bg:#0f1724;--card:#0b1220;--muted:#94a3b8;--accent:#06b6d4;--glass:rgba(255,255,255,0.03)}
-    *{box-sizing:border-box}
-    body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:24px;background:linear-gradient(180deg,#071021 0%, #081026 100%);color:#e6eef6}
-    .container{max-width:900px;margin:0 auto}
-    .card{background:linear-gradient(180deg,var(--card),#071026);border-radius:12px;padding:24px;box-shadow:0 6px 30px rgba(2,6,23,0.6);backdrop-filter:blur(6px)}
-    header{display:flex;gap:16px;align-items:center}
-    .avatar{width:84px;height:84px;border-radius:10px;background:var(--glass);display:flex;align-items:center;justify-content:center;font-weight:600;color:var(--accent);font-size:20px}
-    h1{margin:0;font-size:20px}
-    p.lead{margin:6px 0 0;color:var(--muted);font-size:14px}
-    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
-    .section{background:rgba(255,255,255,0.02);padding:14px;border-radius:8px}
-    .section h3{margin:0 0 8px;font-size:14px}
-    ul{margin:0;padding-left:18px;color:var(--muted);font-size:14px}
-    .stack{display:flex;flex-wrap:wrap;gap:8px}
-    .chip{padding:6px 8px;border-radius:999px;background:rgba(255,255,255,0.02);font-size:13px;color:var(--muted)}
-    .projects li{margin-bottom:8px}
-    .contact{display:flex;flex-direction:column;gap:6px}
-    a{color:var(--accent);text-decoration:none}
-    footer{margin-top:16px;color:var(--muted);font-size:13px;text-align:right}
-    @media (max-width:700px){.grid{grid-template-columns:1fr}.avatar{width:68px;height:68px}}
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="card">
-      <header>
-        <div class="avatar">SS</div>
-        <div>
-          <h1>Data Scientist — Python · SQL · ML · DL</h1>
-          <p class="lead">Building clean datasets, training efficient models, and shipping end-to-end ML apps with Streamlit.</p>
-        </div>
-      </header>
+# 💫 About Me:
+👋 Hi, I'm Tript — Data Science & Machine Learning Enthusiast
 
-      <div class="grid">
-        <section class="section">
-          <h3>Tech Stack</h3>
-          <div class="stack">
-            <span class="chip">Python</span>
-            <span class="chip">NumPy</span>
-            <span class="chip">Pandas</span>
-            <span class="chip">Scikit-learn</span>
-            <span class="chip">TensorFlow / Keras</span>
-            <span class="chip">SQL</span>
-            <span class="chip">Power BI</span>
-            <span class="chip">Tableau</span>
-            <span class="chip">Streamlit</span>
-            <span class="chip">Git</span>
-          </div>
-        </section>
+🔹 I build end-to-end ML and Deep Learning projects using Python, Scikit-Learn, TensorFlow/Keras, and SQL.
+🔹 Interested in solving real-world problems through data analysis, prediction models, and interactive dashboards.
+🔹 Working on projects like churn prediction, CNN image classifiers, spam detection, hypothesis testing, and Power BI analytics.
+🔹 I focus on clean code, reproducible workflows, and practical solutions.
 
-        <section class="section">
-          <h3>Current Focus</h3>
-          <ul>
-            <li>Model optimization and robust feature engineering</li>
-            <li>Deep learning pipelines and GPU workflows</li>
-            <li>Deploying ML apps (Streamlit) and reproducible code</li>
-          </ul>
-        </section>
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tript-singh-363714327/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:triptsingh911@gmail.com) 
 
-        <section class="section">
-          <h3>Projects</h3>
-          <ul class="projects">
-            <li><strong>Customer Churn Prediction</strong> — RandomForest + Streamlit; end-to-end pipeline and evaluation.</li>
-            <li><strong>Spam Detection</strong> — NLP, vectorizers, and classifier deployment.</li>
-            <li><strong>Car Price Prediction</strong> — Regression model with feature engineering and simple UI.</li>
-          </ul>
-        </section>
+# 💻 Tech Stack:
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-        <section class="section">
-          <h3>Contact</h3>
-          <div class="contact">
-            <div>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></div>
-            <div>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></div>
-            <div>Portfolio: <a href="#">your-portfolio-url</a></div>
-          </div>
-        </section>
-      </div>
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=triptsingh911&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=triptsingh911&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=triptsingh911&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-      <footer>Copy this HTML into any page or include as a profile section. Edit text and links to match your details.</footer>
-    </div>
-  </div>
-</body>
-</html>
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=triptsingh911&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=triptsingh911&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+---
+[![](https://visitcount.itsvg.in/api?id=triptsingh911&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
