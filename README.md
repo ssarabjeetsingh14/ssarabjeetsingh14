@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sarabjeet Singh</h1>
-<h3 align="center">A passionate data scientist from india</h3>
+<h3 align="center">Data Scientist focused on Python, SQL, Machine Learning, Deep Learning, and BI tools. I build practical models and deploy them using Streamlit. Interested in data cleaning, feature engineering, and predictive analytics.</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
